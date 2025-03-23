@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Grid-Card/static/css/main.7de718cd.css",
+    "main.js": "/Grid-Card/static/js/main.6628f7da.js",
+    "index.html": "/Grid-Card/index.html",
+    "main.7de718cd.css.map": "/Grid-Card/static/css/main.7de718cd.css.map",
+    "main.6628f7da.js.map": "/Grid-Card/static/js/main.6628f7da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7de718cd.css",
+    "static/js/main.6628f7da.js"
+  ]
+}
