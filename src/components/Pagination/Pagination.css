@@ -1,0 +1,98 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 20px 0;
+  font-family: "Montserrat", sans-serif; 
+}
+
+.pagination button {
+  padding: 8px 12px;
+  border: 1px solid #e0e0e0;
+  background: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500; 
+  color: #333;
+  transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pagination button:first-child,
+.pagination button:last-child {
+  font-size: 16px;
+  padding: 8px 10px;
+}
+
+.pagination button:hover:not(:disabled) {
+  background: #1a7c80;
+  color: white;
+  border-color: #1a7c80;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pagination button.active {
+  background: #1a7c80;
+  color: white;
+  border-color: #1a7c80;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pagination button:disabled {
+  background: #f0f0f0;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.ellipsis {
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 500; 
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .pagination {
+    gap: 6px;
+    padding: 15px 0;
+  }
+
+  .pagination button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  .pagination button:first-child,
+  .pagination button:last-child {
+    padding: 6px 8px;
+    font-size: 14px;
+  }
+
+  .ellipsis {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .pagination {
+    gap: 4px;
+  }
+
+  .pagination button {
+    padding: 5px 8px;
+    font-size: 11px;
+  }
+
+  .pagination button:first-child,
+  .pagination button:last-child {
+    padding: 5px 6px;
+    font-size: 12px;
+  }
+
+  .ellipsis {
+    padding: 5px 8px;
+    font-size: 11px;
+  }
+}
